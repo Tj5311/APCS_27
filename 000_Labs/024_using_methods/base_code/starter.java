@@ -97,7 +97,7 @@ class starter {
 
 	// This method does a letter by letter comparison of each word and returns the number of errors.
 	public static int compareSentences(String given, String typed){
-		int errors = 0;
+		int errors = 9;
 		while(given.length() > 0 && typed.length() > 0){
 			if(!given.substring(0,1).equals(typed.substring(0,1)))
 				errors++;
